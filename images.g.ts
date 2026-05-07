@@ -22,44 +22,6 @@ namespace myImages {
 . . . . . . 1 . . 1 . . . . . . 
 . . . . . . f . . f . . . . . . 
 `;
-            case "image4":
-            case "myImage0":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image3":
-            case "AlienSpawnPoint":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . a a . a a . a a . . . . 
-. . . a . . . a a . . . a . . . 
-. . . a . . . c c . . . a . . . 
-. . a . b b b a a b b b . a . . 
-. a b b b b b c c b b b b b a . 
-. a b b b b 6 6 6 6 b b b b a . 
-. a b b 6 6 9 9 9 9 6 6 b b a . 
-b c b 6 9 9 9 6 6 9 9 9 6 b c b 
-b c b 6 9 9 6 a a 6 9 9 6 b c b 
-b b b 6 9 9 9 a a 9 9 9 6 b b b 
-. b b b 6 6 9 c c 9 6 6 b b b . 
-. b b b b b 6 a a 6 b b b b b . 
-. . b b b b b c c b b b b b . . 
-. . . . b b b b b b b b . . . . 
-`;
             case "image2":
             case "myImage":return img`
 ...999...
@@ -182,6 +144,25 @@ b b b 6 9 9 9 a a 9 9 9 6 b b b
 ...999...
 ...999...
 ...999...
+`;
+            case "image3":
+            case "AlienSpawnPoint":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . c c . a a . c c . . . . 
+. . . c a a . a a . a a c . . . 
+. . . a . . . c c . . . a . . . 
+. . c a b b b a a b b b a c . . 
+. c a b b b b c c b b b b a c . 
+. a b b b b 6 6 6 6 b b b b a . 
+. a b b 6 6 9 9 9 9 6 6 b b a . 
+b a b 6 9 9 9 6 6 9 9 9 6 b a b 
+b a b 6 9 9 6 a a 6 9 9 6 b a b 
+b b b 6 9 9 9 a a 9 9 9 6 b b b 
+. b b b 6 6 9 c c 9 6 6 b b b . 
+. b b b b b 6 a a 6 b b b b b . 
+. . b b b b b c c b b b b b . . 
+. . . . b b b b b b b b . . . . 
 `;
         }
         return null;
