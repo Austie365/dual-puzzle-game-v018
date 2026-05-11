@@ -10,7 +10,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         mySprite2 = sprites.create(assets.image`MainPlayer`, SpriteKind.Player)
         mySprite2.setStayInScreen(true)
         mySprite2.setPosition(136, 55)
-        controller.moveSprite(mySprite2, -50, 50)
+        controller.moveSprite(mySprite2, 50, 50)
         DuplicationIndex = 1
     }
 })
@@ -23,4 +23,3 @@ controller.moveSprite(mySprite, 50, 50)
 AlienSpawnPoint.setPosition(140, 55)
 mySprite.setPosition(24, 55)
 mySprite.setStayInScreen(false)
-music.play(music.createSong(assets.song`mySong`), music.PlaybackMode.LoopingInBackground)
